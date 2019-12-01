@@ -7,9 +7,10 @@ namespace TimeSheets.Models
 {
     public class TimeSheet
     {
-        private DateTime date { get; set; }
-        private int hoursOfWork { get; set; }
-        private Project project { get; set; }
+        public DateTime dateCreated { get; set; }
+        public DateTime dateUpdated { get; set; }
+        public int hoursOfWork { get; set; }
+        public Project Project { get; set; }
 
     }
 }
